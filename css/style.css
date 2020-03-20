@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
     box-sizing: border-box;
+    background: #fbf9f5;
 }
 
 .navbar {
@@ -27,6 +28,10 @@ body {
 .menu-items ul li a {
     text-decoration: none;
     color: white;
+}
+
+.menu-items ul li a:hover{
+    border-bottom: solid 1px black;
 }
 
 .firm-logo {
@@ -56,4 +61,103 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.basic-padding{
+    padding: 50px 130px 0 80px;
+}
+
+.white-text {
+    color: white;
+}
+
+.project-font {
+    font-size: 30px;
+}
+
+.project-title-font {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.who-we-are-section {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3rem;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.our-approach {
+    display: flex;
+    padding-top: 50px;
+}
+
+.approach-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.approach-content a {
+    width: 70%;
+    text-decoration: none;
+    color: black;   
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.approach-content video {
+    width: 30%;
+}
+
+.esade-project {
+    background: url(../images/esade_home.png);
+    background-size: cover;
+    height: 651px;
+    max-width: 100%;
+    margin: 80px;
+}
+
+.kave-and-seat-projects {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kave-project {
+    background: url(../images/Thumbnail-Home-KV.png) no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+    width: 43%;
+}
+
+.seat-project {
+    background: url(../images/seat_thumb_homev2.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 80px;
+    width: 43%;
+}
+
+.fitstation-project {
+    background: url(../images/fitstation_th.jpg);
+    background-size: cover;
+    height: 651px;
+    max-width: 100%;
+    margin: 80px;
+}
+
+.view-case-studies {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-case-studies a {
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
 }
