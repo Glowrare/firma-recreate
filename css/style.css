@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Fira Sans', sans-serif; */
     color: black;
     box-sizing: border-box;
     background: #fbf9f5;
@@ -31,7 +33,7 @@ body {
 }
 
 .menu-items ul li a:hover{
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px white;
 }
 
 .firm-logo {
@@ -80,6 +82,9 @@ body {
     font-weight: bold;
 }
 
+.medium-text-size {
+    font-size: 20px;
+}
 .who-we-are-section {
     font-size: 40px;
     display: flex;
@@ -160,4 +165,12 @@ body {
     text-decoration: underline;
     color: black;
     font-size: 25px;
+}
+
+.how-we-think {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
